@@ -225,7 +225,11 @@ color: white;
 
 @media screen and (max-width: 768px){
 
-
+ #servicios {
+   display: flex;
+   flex-wrap: wrap;
+   width:  30px;
+ }
 
 
   .social-bar{
@@ -240,19 +244,15 @@ color: white;
     font-size: 19px;
   }
 
-
-
 }
 
 @media screen and (max-width: 480px){
 
-  .display-2 {
+  .display-70 {
     font-size: 1rem;
   }
 
-  #servicios img{
-    width: 286px;
-  }
+
  #contacto h3 {
    font-size: 23px;
  }
@@ -269,7 +269,7 @@ color: white;
 
 
   #contacto h3 {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   #inicio a{
@@ -280,32 +280,11 @@ color: white;
     font-size: 14px;
   }
 
-  #servicios {
-    font-size: 10px
-  }
-
-  #servicios img{
-    width: 250px;
-  }
-
   .social-bar{
     display: flex;
     flex-wrap: wrap;
   }
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
+}
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
